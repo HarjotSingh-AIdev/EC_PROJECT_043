@@ -1,0 +1,11 @@
+ASSIGNMENT
+ROLL | 26BCS043
+algorithm | ANN + Differential Evolution
+family | HYBRID
+inputs | Target performance vector P1_F1-P7_F5 (35 values detected in dataset PDF)
+outputs | Candidate design DV1-DV10
+required metrics | MAE, RMSE, R2, prediction timing, ANN surrogate accuracy, DV error, and target-versus-achieved error
+extra study | ANN validation grid; ANN-vs-ExtraTrees surrogate ablation; DE budget-matched random search, parameter sensitivity, and benchmark-function sanity checks
+main deliverable | Documented Python code, results, and report
+email | 26BCS043@nith.ac.in
+resolution | PDF algorithm and ROLL_MAP family agree for 26BCS043 (HYBRID).

@@ -1,0 +1,20 @@
+{
+  "model": "sklearn.neural_network.MLPRegressor",
+  "selected_parameters": {
+    "hidden_layer_sizes": [
+      24,
+      12
+    ],
+    "alpha": 0.1,
+    "activation": "relu",
+    "solver": "adam",
+    "early_stopping": true,
+    "random_state": 42
+  },
+  "selection_metric": "validation macro nRMSE",
+  "selection_score": 0.2059909812804941,
+  "refit_rows": 43,
+  "reference": "ExtraTreesRegressor(n_estimators=500, min_samples_leaf=1, random_state=42, n_jobs=1), fit on train only",
+  "reference_test_macro_r2": 0.16708213699627666,
+  "ann_test_macro_r2": 0.18892256696752546
+}
